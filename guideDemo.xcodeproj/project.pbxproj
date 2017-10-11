@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		948F44EA1CF5554900226A5A /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 948F44E91CF5554900226A5A /* UIView+Extension.m */; };
 		94FD428B1CEE9AB100E200C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FD428A1CEE9AB100E200C0 /* main.m */; };
 		94FD428E1CEE9AB100E200C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FD428D1CEE9AB100E200C0 /* AppDelegate.m */; };
 		94FD42911CEE9AB100E200C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FD42901CEE9AB100E200C0 /* ViewController.m */; };
 		94FD42941CEE9AB100E200C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94FD42921CEE9AB100E200C0 /* Main.storyboard */; };
 		94FD42961CEE9AB100E200C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94FD42951CEE9AB100E200C0 /* Assets.xcassets */; };
 		94FD42991CEE9AB100E200C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94FD42971CEE9AB100E200C0 /* LaunchScreen.storyboard */; };
+		94FD42A21CEE9B4D00E200C0 /* GAPGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FD42A11CEE9B4D00E200C0 /* GAPGuideViewController.m */; };
+		94FD42A81CEEDB6100E200C0 /* HXCardSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FD42A71CEEDB6100E200C0 /* HXCardSwitchView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		948F44E81CF5554900226A5A /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		948F44E91CF5554900226A5A /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		94FD42861CEE9AB000E200C0 /* guideDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guideDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94FD428A1CEE9AB100E200C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		94FD428C1CEE9AB100E200C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +31,10 @@
 		94FD42951CEE9AB100E200C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94FD42981CEE9AB100E200C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94FD429A1CEE9AB100E200C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94FD42A01CEE9B4D00E200C0 /* GAPGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAPGuideViewController.h; sourceTree = "<group>"; };
+		94FD42A11CEE9B4D00E200C0 /* GAPGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAPGuideViewController.m; sourceTree = "<group>"; };
+		94FD42A61CEEDB6100E200C0 /* HXCardSwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCardSwitchView.h; sourceTree = "<group>"; };
+		94FD42A71CEEDB6100E200C0 /* HXCardSwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCardSwitchView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,12 @@
 				94FD428D1CEE9AB100E200C0 /* AppDelegate.m */,
 				94FD428F1CEE9AB100E200C0 /* ViewController.h */,
 				94FD42901CEE9AB100E200C0 /* ViewController.m */,
+				94FD42A61CEEDB6100E200C0 /* HXCardSwitchView.h */,
+				94FD42A71CEEDB6100E200C0 /* HXCardSwitchView.m */,
+				948F44E81CF5554900226A5A /* UIView+Extension.h */,
+				948F44E91CF5554900226A5A /* UIView+Extension.m */,
+				94FD42A01CEE9B4D00E200C0 /* GAPGuideViewController.h */,
+				94FD42A11CEE9B4D00E200C0 /* GAPGuideViewController.m */,
 				94FD42921CEE9AB100E200C0 /* Main.storyboard */,
 				94FD42951CEE9AB100E200C0 /* Assets.xcassets */,
 				94FD42971CEE9AB100E200C0 /* LaunchScreen.storyboard */,
@@ -149,6 +164,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				948F44EA1CF5554900226A5A /* UIView+Extension.m in Sources */,
+				94FD42A21CEE9B4D00E200C0 /* GAPGuideViewController.m in Sources */,
+				94FD42A81CEEDB6100E200C0 /* HXCardSwitchView.m in Sources */,
 				94FD42911CEE9AB100E200C0 /* ViewController.m in Sources */,
 				94FD428E1CEE9AB100E200C0 /* AppDelegate.m in Sources */,
 				94FD428B1CEE9AB100E200C0 /* main.m in Sources */,
@@ -261,9 +279,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = guideDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ganpurj.guideDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ganpurj.guide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -272,9 +291,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = guideDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ganpurj.guideDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ganpurj.guide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -298,6 +318,7 @@
 				94FD429F1CEE9AB100E200C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
